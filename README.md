@@ -23,6 +23,7 @@ Step 1. Add the JitPack repository to your build file
 Step 2. Add the dependency
 
 	dependencies {
+            //始终依赖最新的开源库
 
-	        compile 'com.github.JamesPxy:JitPackReleaseDemo:1.0'
+	        compile 'com.github.JamesPxy:JitPackReleaseDemo:+'
 	}
